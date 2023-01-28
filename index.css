@@ -1,1 +1,21 @@
-#main_container
+#main_container{
+    background-color: #faf3ef;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Dm Serif Display", Helvetica, sans-serif; 
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 3.375rem;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+@media screen and (max-width: 900px){
+    #main_container{
+    display: flex;
+    flex-direction: column;
+    
+}
+        
+}
